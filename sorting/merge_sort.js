@@ -25,7 +25,7 @@ function merge(left, right) {
             merged.push(left.shift());
         }
     }
-    return merged.concat(left).concat(right)
+    return merged.concat(left).concat(right);
 }
 
 
